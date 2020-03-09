@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnSubmit.setOnClickListener {
+        btnHello.setOnClickListener {
             val input = etName.text.toString()
             val result = processInput(input)
             tvResult.text = result
