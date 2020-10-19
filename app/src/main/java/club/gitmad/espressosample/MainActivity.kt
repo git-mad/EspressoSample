@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun processInput(input: String): String {
+    private fun processInput(input: String): String {
         return "Hello, $input!"
     }
 }
